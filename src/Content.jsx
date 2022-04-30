@@ -18,17 +18,20 @@ const Content = () => {
                 />
             </div>
 
-            <div className="">
-                <h1 className="text-[2.8rem] text-center font-bold mb-2">
-                    Make remote work
-                </h1>
-                <p className="text-center text-gray-500 text-lg font-semibold mx-auto w-5/6 mb-7">
-                    Get your team in sync, nomatter your location. Streamline
-                    processes, create team rituals, and watch productivity soar.
-                </p>
-                <button className=" w-4/12 h-12 rounded-2xl font-bold text-lg bg-black text-white block mx-auto mb-14">
-                    Learn more
-                </button>
+            <div className="md:flex md:flex-col md:h-[756px] md:justify-around">
+                <div>
+                    <h1 className="text-[2.8rem] md:text-[5rem] md:leading-none md:text-left text-center font-bold mb-2 md:mb-10 md:mt-[100px]">
+                        Make remote work
+                    </h1>
+                    <p className="text-center md:text-left text-gray-500 text-lg font-semibold mx-auto md:ml-0 w-5/6 mb-7 md:mb-10">
+                        Get your team in sync, nomatter your location.
+                        Streamline processes, create team rituals, and watch
+                        productivity soar.
+                    </p>
+                    <button className=" w-4/12 h-12 rounded-2xl font-bold text-lg bg-black text-white block mx-auto md:ml-0 mb-14 md:mb-[20px]">
+                        Learn more
+                    </button>
+                </div>
                 <Footer />
             </div>
         </main>
