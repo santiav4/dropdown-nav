@@ -5,7 +5,7 @@ const FeatureItem = ({ icon, text, iconAlt }) => {
         <li className="mb-4 md:mb-0 ">
             <a className="flex items-center" href="/">
                 <img
-                    className="mx-4"
+                    className="mx-4 md:ml-0"
                     src={icon}
                     alt={iconAlt}
                     width={16}

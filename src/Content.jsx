@@ -28,7 +28,7 @@ const Content = () => {
                         Streamline processes, create team rituals, and watch
                         productivity soar.
                     </p>
-                    <button className=" w-4/12 h-12 rounded-2xl font-bold text-lg bg-black text-white block mx-auto md:ml-0 mb-14 md:mb-[20px]">
+                    <button className=" w-4/12 h-12 hover:bg-white hover:text-black hover:border-2 hover:border-black rounded-2xl font-bold text-lg bg-black text-white block mx-auto md:ml-0 mb-14 md:mb-[20px]">
                         Learn more
                     </button>
                 </div>
