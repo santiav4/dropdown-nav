@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import CompanyList from "./CompanyList";
 import Features from "./Features";
 import Login from "./Login";
+import arrowUp from "../assets/images/icon-arrow-up.svg";
+import arrowDown from "../assets/images/icon-arrow-down.svg";
 
 const Navbar = ({ handleMenu, menu }) => {
     const [isFeatures, setIsFeatures] = useState(false);
@@ -32,11 +34,7 @@ const Navbar = ({ handleMenu, menu }) => {
                                 className=""
                                 width={15}
                                 height={8}
-                                src={
-                                    isFeatures
-                                        ? "../assets/images/icon-arrow-up.svg"
-                                        : "../assets/images/icon-arrow-down.svg"
-                                }
+                                src={isFeatures ? arrowUp : arrowDown}
                                 alt="icon arrow"
                             />
                         </div>
@@ -52,11 +50,7 @@ const Navbar = ({ handleMenu, menu }) => {
                                 className=""
                                 width={15}
                                 height={8}
-                                src={
-                                    isCompany
-                                        ? "../assets/images/icon-arrow-up.svg"
-                                        : "../assets/images/icon-arrow-down.svg"
-                                }
+                                src={isCompany ? arrowUp : arrowDown}
                                 alt="icon arrow down"
                             />
                         </div>

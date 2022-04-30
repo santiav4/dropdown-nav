@@ -1,7 +1,8 @@
 import React from "react";
 import { useWindowSizes } from "react-use-window-sizes";
 import Footer from "./Footer";
-
+import heroMobile from "../assets/images/image-hero-mobile.png";
+import heroDesktop from "../assets/images/image-hero-desktop.png";
 const Content = () => {
     const { width, height } = useWindowSizes();
     return (
@@ -9,11 +10,7 @@ const Content = () => {
             <div className=" ">
                 <img
                     className="mb-7 mx-auto md:m-0  "
-                    src={`${
-                        width >= 768
-                            ? "../assets/images/image-hero-desktop.png"
-                            : "../assets/images/image-hero-mobile.png"
-                    }`}
+                    src={`${width >= 768 ? heroDesktop : heroMobile}`}
                     alt="hero-imge"
                 />
             </div>
