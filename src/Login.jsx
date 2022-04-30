@@ -2,7 +2,7 @@ import React from "react";
 
 const Login = () => {
     return (
-        <div className=" flex flex-col text-gray-500 text-lg w-9/12 mx-auto md:mx-0 md:w-4/12 md:h-full md:flex-row  md:items-center md:justify-around  ">
+        <div className=" flex flex-col text-gray-500 text-lg w-9/12 mx-auto md:mx-0 md:w-[237px] md:h-full md:flex-row  md:items-center md:justify-around  ">
             <button className="font-semibold mb-4 hover:curosr-pointer md:m-0 ">
                 Login
             </button>

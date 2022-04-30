@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 const header = ({ handleMenu, isMenu, setIsMenu, menu, setMenu }) => {
     return (
         <header className=" bg-white flex items-center h-12 justify-between md:justify-between px-2 mb-4 relative md:w-screen">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className="mt-2" />
             <img
                 className="md:hidden hover:cursor-pointer"
                 src="../assets/images/icon-menu.svg"

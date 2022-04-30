@@ -18,10 +18,9 @@ function App() {
         }
     };
     return (
-        <div className=" w-screen   mx-auto h-screen relative overflow-hidden">
+        <div className=" w-screen    mx-auto h-screen relative overflow-hidden">
             <Header handleMenu={handleMenu} menu={menu} />
             <Content />
-            <Footer />
         </div>
     );
 }
